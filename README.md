@@ -32,7 +32,7 @@ Este projeto é um sistema de controle de estacionamento desenvolvido em C# usan
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd sistema-de-estacionamento
+   cd Parking
    ```
 3. Restaure os pacotes NuGet:
    ```bash
