@@ -1,0 +1,88 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Parking
+build_property.RootNamespace = Parking
+build_property.ProjectDir = F:\Pessoal\C#\Benner\benner_test_parking\Parking\Parking\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\Pessoal\C#\Benner\benner_test_parking\Parking\Parking
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Views/PriceTables/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpY2VUYWJsZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Views/PriceTables/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpY2VUYWJsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Views/PriceTables/_PriceForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpY2VUYWJsZXNcX1ByaWNlRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Views/PriceTables/_PriceTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpY2VUYWJsZXNcX1ByaWNlVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Views/VehicleRegistrations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVJlZ2lzdHJhdGlvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Views/VehicleRegistrations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVJlZ2lzdHJhdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Views/VehicleRegistrations/_VehicleEntryForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVJlZ2lzdHJhdGlvbnNcX1ZlaGljbGVFbnRyeUZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Views/VehicleRegistrations/_VehicleExitForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVJlZ2lzdHJhdGlvbnNcX1ZlaGljbGVFeGl0Rm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Views/VehicleRegistrations/_VehicleRegistrationForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVJlZ2lzdHJhdGlvbnNcX1ZlaGljbGVSZWdpc3RyYXRpb25Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Views/VehicleRegistrations/_VehicleRegistrationsTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVJlZ2lzdHJhdGlvbnNcX1ZlaGljbGVSZWdpc3RyYXRpb25zVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Pessoal/C\#/Benner/benner_test_parking/Parking/Parking/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kuemg2lava

@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Parking.Models.VehicleRegistration>
+
+@{
+    ViewData["Title"] = "Tabela de Registros";
+}
+
+<table class="table table-bordered table-striped mt-4">
+    <thead class="thead-dark">
+        <tr>
+            <th>Placa</th>
+            <th>Horário de Chegada</th>
+            <th>Horário de Saída</th>
+            <th>Duração</th>
+            <th>Tempo Cobrado (hora)</th>
+            <th>Preço</th>
+            <th>Valor a Pagar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.LicensePlate</td>
+                <td>@item.Enter.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                <td>@item.Exit?.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                <td>
+                    @if (item.Exit.HasValue)
+                    {
+                        var duration = item.Exit.Value - item.Enter;
+                        <text>@duration.TotalHours.ToString("0.##")</text>
+                    }
+                </td>
+                <td>
+                    @if (item.Exit.HasValue)
+                    {
+                        var duration = item.Exit.Value - item.Enter;
+                        var hours = Math.Ceiling(duration.TotalHours);
+                        <text>@hours.ToString("0.##")</text>
+                    }
+                </td>
+                <td>
+                    @if (item.Exit.HasValue)
+                    {
+                        var rate = 5.00m;
+                        var duration = item.Exit.Value - item.Enter;
+                        var hours = Math.Ceiling(duration.TotalHours);
+                        var price = hours * (double)rate;
+                        <text>@price.ToString("C")</text>
+                    }
+                </td>
+                <td>
+                    @if (item.Exit.HasValue)
+                    {
+                        var duration = item.Exit.Value - item.Enter;
+                        var hours = Math.Ceiling(duration.TotalHours);
+                        var rate = 5.00m;
+                        var price = hours * (double)rate;
+                        <text>@price.ToString("C")</text>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

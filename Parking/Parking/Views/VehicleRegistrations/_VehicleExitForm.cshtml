@@ -1,0 +1,9 @@
+﻿@model Parking.Models.VehicleRegistration
+
+<form method="post" action="@Url.Action("CreateExit", "VehicleRegistrations")">
+	<div class="input-group mb-2">
+		<button type="submit" class="btn btn-danger" style="min-width: 150px;">Registrar Saída</button>
+		<input asp-for="LicensePlate" name="LicensePlate" class="form-control" required maxlength="8" placeholder="PLACA SAÍDA" />
+		<span asp-validation-for="LicensePlate" class="text-danger"></span>
+	</div>
+</form>

@@ -1,0 +1,16 @@
+﻿@model Parking.Models.VehicleRegistration
+
+@{
+    ViewData["Title"] = "Formulário de Registro";
+}
+
+<form method="post" action="@Url.Action("CreateEntry", "VehicleRegistrations")">
+    <div class="form-group">
+        <label asp-for="LicensePlate" class="control-label"></label>
+        <input asp-for="LicensePlate" class="form-control" name="LicensePlate"  placeholder="Placa do Veículo" required />
+        <span asp-validation-for="LicensePlate" class="text-danger"></span>
+    </div>
+    <div class="form-group mt-3">
+        <input type="submit" value="Marcar Entrada" class="btn btn-success" />
+    </div>
+</form>

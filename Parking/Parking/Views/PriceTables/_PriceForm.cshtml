@@ -1,0 +1,25 @@
+﻿@model Parking.Models.PriceTable
+
+<form method="post" action="@Url.Action("Create", "PriceTables")" class="mb-4">
+    <div class="form-group">
+        <label asp-for="StartSurveillance" class="control-label">Início da Vigilância</label>
+        <input asp-for="StartSurveillance" class="form-control" name="StartSurveillance" type="datetime-local" />
+        <span asp-validation-for="StartSurveillance" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EndSurveillance" class="control-label">Fim da Vigilância</label>
+        <input asp-for="EndSurveillance" class="form-control" name="EndSurveillance" type="datetime-local" />
+        <span asp-validation-for="EndSurveillance" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ItialHourlyRate" class="control-label">Preço Inicial por Hora</label>
+        <input asp-for="ItialHourlyRate" class="form-control" name="ItialHourlyRate" type="number" step="0.01" />
+        <span asp-validation-for="ItialHourlyRate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="FinalHourlyRate" class="control-label">Preço Final por Hora</label>
+        <input asp-for="FinalHourlyRate" class="form-control" name="FinalHourlyRate" type="number" step="0.01" />
+        <span asp-validation-for="FinalHourlyRate" class="text-danger"></span>
+    </div>
+    <input type="submit" value="Cadastrar Preço" class="btn btn-primary mt-2" />
+</form>

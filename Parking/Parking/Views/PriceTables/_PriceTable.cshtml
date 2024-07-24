@@ -1,0 +1,26 @@
+﻿@model List<Parking.Models.PriceTable>
+
+<h3 class="text-secondary">Lista de Preços</h3>
+<table class="table table-bordered">
+    <thead class="bg-secondary text-white">
+        <tr>
+            <th>ID</th>
+            <th>Início da Vigilância</th>
+            <th>Fim da Vigilância</th>
+            <th>Preço Inicial por Hora</th>
+            <th>Preço Final por Hora</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var price in Model)
+        {
+            <tr>
+                <td>@price.ID</td>
+                <td>@price.StartSurveillance.ToString("g")</td>
+                <td>@price.EndSurveillance.ToString("g")</td>
+                <td>@price.ItialHourlyRate.ToString("C")</td>
+                <td>@price.FinalHourlyRate.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>

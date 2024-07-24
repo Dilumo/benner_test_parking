@@ -1,0 +1,37 @@
+﻿@model Parking.Models.PriceTable
+
+@{
+    ViewData["Title"] = "Create Price Table";
+}
+
+<h1>Create Price Table</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="StartSurveillance" class="control-label">Start Surveillance</label>
+        <input asp-for="StartSurveillance" class="form-control" type="datetime-local" name="StartSurveillance" />
+        <span asp-validation-for="StartSurveillance" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EndSurveillance" class="control-label">End Surveillance</label>
+        <input asp-for="EndSurveillance" class="form-control" type="datetime-local" name="EndSurveillance" />
+        <span asp-validation-for="EndSurveillance" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ItialHourlyRate" class="control-label">Initial Hourly Rate</label>
+        <input asp-for="ItialHourlyRate" class="form-control" type="number" step="0.01" name="ItialHourlyRate" />
+        <span asp-validation-for="ItialHourlyRate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FinalHourlyRate" class="control-label">Final Hourly Rate</label>
+        <input asp-for="FinalHourlyRate" class="form-control" type="number" step="0.01" name="FinalHourlyRate" />
+        <span asp-validation-for="FinalHourlyRate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
