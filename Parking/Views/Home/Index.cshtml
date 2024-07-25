@@ -57,23 +57,19 @@
             const plateInputs = document.querySelectorAll('input[name="LicensePlate"]');
 
             function formatLicensePlate(value) {
-                // Remove all non-alphanumeric characters
                 value = value.replace(/[^a-zA-Z0-9]/g, '');
-                // Format as XXX-0000
                 if (value.length > 3) {
                     value = value.slice(0, 3) + '-' + value.slice(3, 7);
                 }
                 return value;
             }
 
-            // Iterating over all LicensePlate input fields
             plateInputs.forEach(function (plateInput) {
                 plateInput.addEventListener('input', function () {
                     let value = plateInput.value;
                     plateInput.value = formatLicensePlate(value).toUpperCase();
                 });
 
-                // Force uppercase styling
                 plateInput.style.textTransform = 'uppercase';
             });
         });

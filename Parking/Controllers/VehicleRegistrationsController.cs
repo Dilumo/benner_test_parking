@@ -63,7 +63,6 @@ namespace Parking.Controllers
 
 			if (vehicle == null)
 			{
-				// Veículo não encontrado ou já saiu
 				ModelState.AddModelError(string.Empty, "Veículo não encontrado ou já saiu.");
 				return await ReturnIndexViewWithModel();
 			}
@@ -85,7 +84,6 @@ namespace Parking.Controllers
 			return RedirectToAction("Index", "Home");
 		}
 
-		// Helper method to return the Index view with the appropriate model
 		private async Task<IActionResult> ReturnIndexViewWithModel()
 		{
 			var model = new IndexViewModel
