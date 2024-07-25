@@ -65,7 +65,5 @@ O projeto inclui testes automatizados para garantir a funcionalidade do sistema.
    dotnet test
    ```
 
-Atualmente, a implementação de testes unitários usando o Test-Driven Development (TDD) está planejada para futuras versões.
-
 
 
