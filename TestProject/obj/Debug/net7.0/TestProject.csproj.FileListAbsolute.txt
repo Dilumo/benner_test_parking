@@ -1,0 +1,5 @@
+F:\Pessoal\C#\Benner\benner_test_parking\TestProject\obj\Debug\net7.0\TestProject.csproj.AssemblyReference.cache
+F:\Pessoal\C#\Benner\benner_test_parking\TestProject\obj\Debug\net7.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+F:\Pessoal\C#\Benner\benner_test_parking\TestProject\obj\Debug\net7.0\TestProject.AssemblyInfoInputs.cache
+F:\Pessoal\C#\Benner\benner_test_parking\TestProject\obj\Debug\net7.0\TestProject.AssemblyInfo.cs
+F:\Pessoal\C#\Benner\benner_test_parking\TestProject\obj\Debug\net7.0\TestProject.csproj.CoreCompileInputs.cache

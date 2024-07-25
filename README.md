@@ -54,7 +54,18 @@ Este projeto é um sistema de controle de estacionamento desenvolvido em C# usan
 
 ## Testes
 
-Atualmente, o projeto não inclui testes automatizados, mas a implementação de testes unitários usando o Test-Driven Development (TDD) está planejada para futuras versões.
+O projeto inclui testes automatizados para garantir a funcionalidade do sistema. Para rodar os testes:
+
+1. Navegue até o diretório de testes:
+   ```bash
+   cd TestProject
+   ```
+2. Execute os testes:
+   ```bash
+   dotnet test
+   ```
+
+Atualmente, a implementação de testes unitários usando o Test-Driven Development (TDD) está planejada para futuras versões.
 
 
 
